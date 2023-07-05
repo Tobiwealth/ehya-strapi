@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sold_products",
+  "info": {
+    "singularName": "sold-product",
+    "pluralName": "sold-products",
+    "displayName": "soldProduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "unitsold": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
